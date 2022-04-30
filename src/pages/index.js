@@ -1,5 +1,6 @@
 import * as React from "react"
 
+
 // styles
 const pageStyles = {
   color: "#232129",
@@ -144,6 +145,8 @@ const IndexPage = () => {
         <span role="img" aria-label="Sunglasses smiley emoji">
           😎
         </span>
+        <p>The data collection procces required using Recursion Cos HMDA Query Analyzer to extract what Mortgage related variables and dimensions we wanted. 
+          We chose to look at mortgage rate by race, income brackets, loan amount brackets, FHFA Low Income Area Flag,</p>
       </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
