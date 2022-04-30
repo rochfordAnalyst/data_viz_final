@@ -81,29 +81,29 @@ const badgeStyle = {
 // data
 const links = [
   {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
+    text: "Dashboard 1 County Level All States",
+        url: "https://public.tableau.com/app/profile/brian.rochford/viz/BusinessAnalyticsTableauAssignment2/ReturnsDistn",
     description:
-      "lit shit. Designed to guide you through setting up your first Gatsby site.",
+      "This visual shows the 5 largest states crime and mortgage rates in low income areas",
     color: "#E95800",
   },
   {
-    text: "How to Guides",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
+    text: "Dashboard 2 County Level California",
+    url: "https://public.tableau.com/app/profile/brian.rochford/viz/burglaryPerPopulationRatio/BurglaryPerpopulationRatio",
     description:
       "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
     color: "#1099A8",
   },
   {
-    text: "Reference Guides",
-    url: "https://www.gatsbyjs.com/docs/reference/",
+    text: "Mortgage Data Codebook",
+    url: "https://docs.google.com/document/d/1wTHueSJ9YGJQ2onokbuhqsd9ee_88npSZE4-ynwOru4/edit",
     description:
       "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
     color: "#BC027F",
   },
   {
-    text: "Conceptual Guides",
-    url: "https://www.gatsbyjs.com/docs/conceptual/",
+    text: "Crime Data Source",
+    url: "https://www.openicpsr.org/openicpsr/project/115006/version/V1/view?path=/openicpsr/115006/fcr:versions/V1.3/nanda_crime_county_2002-2014_01P_csv_with_readme.zip&type=file",
     description:
       "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
     color: "#0D96F2",
@@ -131,9 +131,9 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Congratulations
+      Exploring Crime Rates and ESG in the Mortgage Industry (New York, California, Texas, Illinois, Florida
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
+        <span style={headingAccentStyles}>Exploring Crime Rates and ESG in the Mortgage Industry (New York, California, Texas, Illinois, Florida</span>
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>
