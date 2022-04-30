@@ -131,7 +131,7 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-      Exploring Crime Rates and ESG in the Mortgage Industry (New York, California, Texas, Illinois, Florida
+      Created by Brian Rochford, Raj Sidhu, and Kevin Chavez
         <br />
         <span style={headingAccentStyles}>Exploring Crime Rates and ESG in the Mortgage Industry (New York, California, Texas, Illinois, Florida</span>
         <span role="img" aria-label="Party popper emojis">
