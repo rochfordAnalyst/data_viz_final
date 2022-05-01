@@ -1,6 +1,7 @@
 import * as React from "react"
 
 
+
 // styles
 const pageStyles = {
   color: "#232129",
@@ -90,18 +91,25 @@ const badgeStyle = {
 // data
 const links = [
   {
-    text: "Dashboard 1 County Level All States",
-        url: "https://public.tableau.com/app/profile/brian.rochford/viz/BusinessAnalyticsTableauAssignment2/ReturnsDistn",
+    text: "Approval Rates by County, Race, Income Brackets over Time",
+        url: "https://public.tableau.com/app/profile/brian.rochford/viz/finalproject1_16514431483670/Dashboard2?publish=yes",
     description:
       "This visual shows the 5 largest states crime and mortgage rates in low income areas",
     color: "#E95800",
   },
   {
-    text: "Dashboard 2 County Level California",
-    url: "https://public.tableau.com/app/profile/brian.rochford/viz/burglaryPerPopulationRatio/BurglaryPerpopulationRatio",
+    text: "Dashboard 2 All 3",
+    url: "https://public.tableau.com/app/profile/brian.rochford/viz/finalprojectDash3/Dashboard2?publish=yes",
     description:
       "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
     color: "#1099A8",
+  },
+  {
+    text: "Mortgage Application Count Distrbution over Time",
+    url: "https://docs.google.com/document/d/1wTHueSJ9YGJQ2onokbuhqsd9ee_88npSZE4-ynwOru4/edit",
+    description:
+      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
+    color: "#BC027F",
   },
   {
     text: "Mortgage Data Codebook",
@@ -176,9 +184,11 @@ const IndexPage = () => {
           </li>
         ))}
       </ul>
+    
     </main>
   )
   
 }
+
 
 export default IndexPage
