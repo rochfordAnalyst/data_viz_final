@@ -133,11 +133,11 @@ const links = [
     color: "#8EB814",
   },
   {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
+    text: "Resource 1",
+    url: "http://www.realcostofprisons.org/materials/TTT_paper3.pdf",
     badge: true,
     description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
+    "This Research paper analyzes the effect of having home mortgage access reduce crime rates",
     color: "#663399",
   },
   {
