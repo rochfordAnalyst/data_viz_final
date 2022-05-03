@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Data_Viz_Final`,
+    title: `Fordham-Recursion-ESG-Big-Mortgage-Data-Research`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [],
