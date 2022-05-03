@@ -10,12 +10,13 @@ const pageStyles = {
 }
 
 const headingStyles = {
+  color: "#900028",
   marginTop: 0,
   marginBottom: 15,
   maxWidth: 1500,
 }
 const headingAccentStyles = {
-  color: "#663399",
+  color: "#900028",
 }
 const paragraphStyles = {
   marginTop:21,
@@ -36,17 +37,17 @@ const codeStyles = {
 }
 const listStyles = {
   marginBottom: 96,
-  paddingLeft: 30,
+  paddingLeft: 100,
 }
 const listItemStyles = {
   fontWeight: 300,
   fontSize: 24,
-  maxWidth: 560,
+  maxWidth: 1000,
   marginBottom: 30,
 }
 
 const linkStyle = {
-  color: "#8954A8",
+  color: "#585858",
   fontWeight: "bold",
   fontSize: 16,
   verticalAlign: "5%",
@@ -95,21 +96,22 @@ const links = [
     url: "https://docs.google.com/presentation/d/1bxWYxqrgQ8AaSLXCkY0Q-Cw3MfTgPBHTg_wmonMEoHI/edit#slide=id.p",
     description:
       "Describing Process, Initial Hypotheses, Findings, and Insights into Social and Governance Factors regarding the Mortgage industry and crime across 5 major states.",
-    color: "#8EB814",
+    color: "#BC027F",
   },
   {
     text: "Approval Rates by County, Race, Income Brackets over Time",
         url: "https://public.tableau.com/app/profile/brian.rochford/viz/finalproject1_16514431483670/Dashboard2?publish=yes",
     description:
       "This visual shows the 5 largest states crime and mortgage rates in low income areas",
-    color: "#E95800",
+    color: "#BC027F",
+
   },
   {
     text: "Dashboard 2 All 3",
     url: "https://public.tableau.com/app/profile/brian.rochford/viz/finalprojectDash3/Dashboard2?publish=yes",
     description:
       "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
-    color: "#1099A8",
+    color: "#BC027F",
   },
   {
     text: "Mortgage Application Count Distrbution over Time",
@@ -130,7 +132,8 @@ const links = [
     url: "https://www.openicpsr.org/openicpsr/project/115006/version/V1/view?path=/openicpsr/115006/fcr:versions/V1.3/nanda_crime_county_2002-2014_01P_csv_with_readme.zip&type=file",
     description:
       "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
-    color: "#0D96F2",
+    color: "#BC027F",
+    
   },
   {
     text: "Resource 1",
@@ -138,7 +141,8 @@ const links = [
     badge: true,
     description:
     "This Research paper analyzes the effect of having home mortgage access reduce crime rates",
-    color: "#663399",
+    color: "#BC027F",
+    
   },
   {
     text: "Resource 1",
@@ -146,6 +150,8 @@ const links = [
     badge: true,
     description:
       "This Research paper analyzes the effect of having home mortgage access reduce crime rates"
+    color: "#BC027F",
+    
   }
 
 ]
