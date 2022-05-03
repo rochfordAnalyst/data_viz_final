@@ -149,7 +149,7 @@ const links = [
     url: "http://www.realcostofprisons.org/materials/TTT_paper3.pdf",
     badge: true,
     description:
-      "This Research paper analyzes the effect of having home mortgage access reduce crime rates"
+      "This Research paper analyzes the effect of having home mortgage access reduce crime rates",
     color: "#BC027F",
     
   }
