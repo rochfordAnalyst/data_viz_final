@@ -91,6 +91,13 @@ const badgeStyle = {
 // data
 const links = [
   {
+    text: "Presentation",
+    url: "https://docs.google.com/presentation/d/1bxWYxqrgQ8AaSLXCkY0Q-Cw3MfTgPBHTg_wmonMEoHI/edit#slide=id.p",
+    description:
+      "Describing Process, Initial Hypotheses, Findings, and Insights into Social and Governance Factors regarding the Mortgage industry and crime across 5 major states.",
+    color: "#8EB814",
+  },
+  {
     text: "Approval Rates by County, Race, Income Brackets over Time",
         url: "https://public.tableau.com/app/profile/brian.rochford/viz/finalproject1_16514431483670/Dashboard2?publish=yes",
     description:
@@ -124,13 +131,6 @@ const links = [
     description:
       "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
     color: "#0D96F2",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    color: "#8EB814",
   },
   {
     text: "Resource 1",
