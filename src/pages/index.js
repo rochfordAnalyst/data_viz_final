@@ -100,7 +100,7 @@ const links = [
   },
   {
     text: "High Level Summary: Approval rates by County over Time",
-        url: "https://public.tableau.com/app/profile/brian.rochford/viz/highLevelMortgageApprovalRatesSummary/HighLevelDashboard",
+        url: "https://public.tableau.com/app/profile/brian.rochford/viz/highlevelapprovalbystate/Dashboard5?publish=yes",
     description:
       "This visual shows the 5 largest states weighted average mortgage approval rates by county, race, year, income brackets, loan amount brackets, and a parameter control based on the property crime per population ratio of each county.",
     color: "#BC027F",
@@ -163,16 +163,24 @@ const links = [
     url: "https://www.ppic.org/publication/crime-trends-in-california/",
     badge: true,
     description:
-    "This Research paper analyzes the effect of having home mortgage access reduce crime rates",
+    "This article includes visualizations for California's county level violent and property crime rates over time.",
     color: "#BC027F",
     
   },
   {
-    text: "Research Validation Source",
+    text: "Mortgage Access and Reduced Crime Research Validation Source",
     url: "http://www.realcostofprisons.org/materials/TTT_paper3.pdf",
     badge: true,
     description:
     "This Research paper analyzes the effect of having home mortgage access reduce crime rates",
+    color: "#BC027F",
+  },
+  {
+    text: "Racial Bias in Mortgage Lending Research Validation Source",
+    url: "https://www.asanet.org/sites/default/files/attach/journals/jun16ccfeature.pdf",
+    badge: true,
+    description:
+    "This Research paper describes an in depth qualitative analysis into racial discrimination by mortgage lenders during the housing boom prior to the financial crash in 08'.",
     color: "#BC027F",
   },
 
@@ -194,7 +202,7 @@ const IndexPage = () => {
       <p style={paragraphStyles}>
         <p>Created by Brian Rochford, Kevin Chavez, and Raj Sidhu</p>
         <p>The data collection procces required using Recursion Cos HMDA Query Analyzer to extract what Mortgage related variables and dimensions we wanted. 
-          We chose to look at Mortgage Approval and Denial Rates by state, county, race, income brackets, loan amount brackets, application count, and FHFA Low Income Area Flag (only available from 2010-2021)</p>
+          We chose to look at Mortgage Approval and Denial Rates by state, county, race (only available 2004-2021), income brackets, loan amount brackets, application count, and FHFA Low Income Area Flag (only available from 2010-2021)</p>
           <p>We then found a county level crime dataset spanning from 2002-2014. We merged these two datasets by county FIPS code and year. After we collected county level population data by each race for only 
              2019. This created another dimension by introducing a per population ratio to better compare crime in counties with different demogrpahics.</p>
       </p>
