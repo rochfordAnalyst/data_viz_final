@@ -99,45 +99,52 @@ const links = [
     color: "#BC027F",
   },
   {
-    text: "Approval Rates by County, Race, Income Brackets over Time",
-        url: "https://public.tableau.com/app/profile/brian.rochford/viz/finalproject1_16514431483670/Dashboard2?publish=yes",
+    text: "High Level Summary: Approval rates by County over Time",
+        url: "https://public.tableau.com/app/profile/brian.rochford/viz/highLevelMortgageApprovalRatesSummary/HighLevelDashboard",
     description:
-      "This visual shows the 5 largest states crime and mortgage rates in low income areas",
+      "This visual shows the 5 largest states weighted average mortgage approval rates by county, race, year, income brackets, loan amount brackets, and a parameter control based on the property crime per population ratio of each county.",
     color: "#BC027F",
 
   },
   {
-    text: "Dashboard 2 All 3",
-    url: "https://public.tableau.com/app/profile/brian.rochford/viz/finalprojectDash3/Dashboard2?publish=yes",
+    text: "Drilled Down View: Florida vs California Approval Rates by County over Time",
+        url: "https://public.tableau.com/app/profile/brian.rochford/viz/drilldownMortgageApprovalbyCounty/Dashboard4?publish=yes",
     description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
+      "This visual shows the approval rates in California and Florida with the same dimensions as dashboard map above. Shows significant differences in approval rate decline in counties in Florida compared to California counties.",
     color: "#BC027F",
   },
   {
-    text: "Mortgage Application Count Distrbution over Time",
-    url: "https://docs.google.com/document/d/1wTHueSJ9YGJQ2onokbuhqsd9ee_88npSZE4-ynwOru4/edit",
+    text: "Treemap and Highlight tables Relating Total crime, approval rates, denial rates, and income",
+    url: "https://public.tableau.com/app/profile/kevin.j.chavez/viz/CrimeandMortgage/LoansApprovedorDeniedbyRace?publish=yes",
     description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
+      "In this Dashboard the Treemap portrays the 5 Different states and Races. In which we can see the total crime to population ratio and the percent of mortgage loans approved. Also showing highlight tables by income brackets based on the denial rates for each.",
+    color: "#BC027F",
+  },
+  {
+    text: "Total Crime by County Over Time and Total Crime Rates vs Approval Rates Over Time",
+    url: "https://public.tableau.com/views/DataVisualizationproject_16516239443930/FinalDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
+    description:
+      "Total crime by county and state. You can select into individual states and change it by year to see the change in crime over time.",
     color: "#BC027F",
   },
   {
     text: "Mortgage Data Codebook",
     url: "https://docs.google.com/document/d/1wTHueSJ9YGJQ2onokbuhqsd9ee_88npSZE4-ynwOru4/edit",
     description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
+      "Interpretting the columns that came from mortgage query and there importance to our study.",
     color: "#BC027F",
   },
   {
     text: "Crime Data Source",
     url: "https://www.openicpsr.org/openicpsr/project/115006/version/V1/view?path=/openicpsr/115006/fcr:versions/V1.3/nanda_crime_county_2002-2014_01P_csv_with_readme.zip&type=file",
     description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
+      "The source for the crime data we used.",
     color: "#BC027F",
     
   },
   {
-    text: "Resource 1",
-    url: "http://www.realcostofprisons.org/materials/TTT_paper3.pdf",
+    text: "California Crime Trends Research Validation Source",
+    url: "https://www.ppic.org/publication/crime-trends-in-california/",
     badge: true,
     description:
     "This Research paper analyzes the effect of having home mortgage access reduce crime rates",
@@ -145,14 +152,14 @@ const links = [
     
   },
   {
-    text: "Resource 1",
+    text: "Research Validation Source",
     url: "http://www.realcostofprisons.org/materials/TTT_paper3.pdf",
     badge: true,
     description:
-      "This Research paper analyzes the effect of having home mortgage access reduce crime rates",
+    "This Research paper analyzes the effect of having home mortgage access reduce crime rates",
     color: "#BC027F",
     
-  }
+  },
 
 ]
 
