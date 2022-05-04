@@ -185,10 +185,10 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
-      <h1 style={headingStyles}>
+      <h1 style={headingStyles}>Exploring Crime Rates and ESG in the Mortgage Industry (New York, California, Texas, Illinois, Florida
       
         <br />
-        <span style={headingAccentStyles}>Exploring Crime Rates and ESG in the Mortgage Industry (New York, California, Texas, Illinois, Florida</span>
+        <span style={headingStyles}></span>
       </h1>
       
       <p style={paragraphStyles}>
