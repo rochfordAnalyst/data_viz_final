@@ -108,9 +108,9 @@ const links = [
   },
   {
     text: "Drilled Down View: Florida vs California Approval Rates by County over Time",
-        url: "https://public.tableau.com/app/profile/brian.rochford/viz/drilldownMortgageApprovalbyCounty/Dashboard4?publish=yes",
+        url: "https://public.tableau.com/app/profile/brian.rochford/viz/StatebyStateComparisonofApprovalRatesandPropertyCrimeRates/drilldownapprovalbycounty",
     description:
-      "This visual shows the approval rates in California and Florida with the same dimensions as dashboard map above. Shows significant differences in approval rate decline in counties in Florida compared to California counties.",
+      "This visual shows the approval rates in California and Florida with the same dimensions as dashboard map above. This comparison shows significant differences in approval rate decline in counties in Florida compared to California counties. It also illustrates how badly some races were discriminated against in 2007-2008. A dimension option is also given for each map to change the state comparisons.",
     color: "#BC027F",
   },
   {
