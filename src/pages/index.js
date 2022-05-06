@@ -1,4 +1,24 @@
 import * as React from "react"
+import { Container, Row, Col } from 'react-bootstrap'
+
+import { StaticImage } from 'gatsby-plugin-image'
+
+
+        
+         <div id="about">
+             <Container fluid >
+                 <Row className="justify-content-center align-items-center">
+                     <Col md={12} >
+                        
+                        <StaticImage src="../images/icon.png" objectFit="contain" alt="Profile Picture" />
+                        
+                    </Col>
+                </Row> 
+            </Container>
+        </div>
+            
+
+
 
 
 
