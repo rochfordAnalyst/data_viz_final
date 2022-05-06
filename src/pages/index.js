@@ -5,17 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 
         
-         <div id="about">
-             <Container fluid >
-                 <Row className="justify-content-center align-items-center">
-                     <Col md={12} >
-                        
-                        <StaticImage src="../images/icon.png" objectFit="contain" alt="Profile Picture" />
-                        
-                    </Col>
-                </Row> 
-            </Container>
-        </div>
+         
             
 
 
@@ -244,6 +234,17 @@ const IndexPage = () => {
           </li>
         ))}
       </ul>
+      <div id="about">
+             <Container fluid >
+                 <Row className="justify-content-center align-items-center">
+                     <Col md={12} >
+                        
+                        <StaticImage src="../images/icon.png" objectFit="contain" alt="Profile Picture" />
+                        
+                    </Col>
+                </Row> 
+            </Container>
+        </div>
     
     </main>
   )
