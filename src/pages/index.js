@@ -239,7 +239,7 @@ const IndexPage = () => {
                  <Row className="justify-content-center align-items-center">
                      <Col md={12} >
                         
-                        <StaticImage src="../images/icon.png" objectFit="contain" alt="Profile Picture" />
+                        <StaticImage src="/Desktop/data_viz_final/images/icon.png" alt="Profile Picture" />
                         
                     </Col>
                 </Row> 
